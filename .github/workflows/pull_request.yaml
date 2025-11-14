@@ -6,12 +6,6 @@ on:
       - main
   workflow_dispatch:
 
-
-permissions:
-  contents: read
-  packages: write
-  security-events: write
-
 jobs:
   build-and-push-arch-specifics:
     name: Build Rocks and Push Arch Specific Images
